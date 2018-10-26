@@ -6,5 +6,4 @@ router.get('/', function(req, res, next) {
     res.send('{ the answer }');
   });
   
-  module.exports = router;
-  
+module.exports = router;
